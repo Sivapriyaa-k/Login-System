@@ -5,20 +5,44 @@
 }
 
 body {
-  background-color: #dfdfdf;
+  background: linear-gradient(248deg, #00c7ff, #8781ff, #be26ff);
 }
 
 .form-div {
   background-color: #fff;
   width: 30%;
   padding: 100px 50px;
+  border-radius: 30px;
 }
 
 .form-group {
   display: flex;
   flex-direction: column;
+  text-align: right;
 }
 
 h1 {
   font-size: 60px;
+}
+
+input {
+  height: 50px;
+  /* border-bottom: 1px solid; */
+  border-width: 0px 0px 1px 0px;
+}
+
+input:focus-visible {
+  height: 50px;
+  /* border-bottom: 1px solid; */
+  border-width: 0px 0px 1px 0px;
+}
+
+.form-btn button {
+  background: linear-gradient(248deg, #00c7ff, #8781ff, #be26ff);
+  margin-top: 20px;
+  border: 0px;
+  width: 50%;
+  padding: 10px;
+  border-radius: 30px;
+  color: #fff;
 }

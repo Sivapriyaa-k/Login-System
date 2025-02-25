@@ -7,13 +7,16 @@ function Login() {
       <div className="form-div">
         <h1 className="mb-4">Welcome</h1>
         <form>
-          <div className="form-group">
-            <label for="username">Enter Your Username</label>
-            <input type="text" id="username" />
+          <div className="form-group  mb-4">
+            {/* <label for="username">Enter Your Username</label> */}
+            <input type="text" id="username" placeholder="Username" />
           </div>
-          <div className="form-group">
-            <label for="password">Enter Your Password</label>
-            <input type="password" id="password" />
+          <div className="form-group mb-4">
+            {/* <label for="password">Enter Your Password</label> */}
+            <input type="password" id="password" placeholder="password" />
+          </div>
+          <div className="form-btn  mt-4">
+            <button type="button">Submit</button>
           </div>
         </form>
       </div>
