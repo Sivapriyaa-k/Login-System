@@ -15,7 +15,7 @@ function Login() {
           </div>
           <div className="form-btn  mt-4">
             <button type="button" id="login">
-              Submit
+              Login
             </button>
           </div>
         </form>
