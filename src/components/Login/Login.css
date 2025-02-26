@@ -5,7 +5,7 @@
 }
 
 body {
-  background: linear-gradient(248deg, #00c7ff, #8781ff, #be26ff);
+  background: linear-gradient(248deg, #00c7ff80, #8b81ff80, #be26ff80);
 }
 
 .form-div {
@@ -45,4 +45,8 @@ input:focus-visible {
   padding: 10px;
   border-radius: 30px;
   color: #fff;
+}
+
+.form-btn button:hover {
+  transform: scale(1.1);
 }
