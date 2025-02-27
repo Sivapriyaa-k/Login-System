@@ -6,6 +6,7 @@ function Login() {
     <>
       <div className="form-div">
         <h1 className="mb-4">Welcome</h1>
+        <p>Please Enter Your Details</p>
         <form>
           <div className="form-group  mb-4">
             <input type="text" id="username" placeholder="Username" />
