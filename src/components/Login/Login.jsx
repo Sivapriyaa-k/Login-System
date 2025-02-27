@@ -5,7 +5,7 @@ function Login() {
   return (
     <>
       <div className="form-div">
-        <h1 className="mb-4">Welcome</h1>
+        <h1 className="mb-1">Welcome</h1>
         <p>Please Enter Your Details</p>
         <form>
           <div className="form-group  mb-4">
@@ -16,7 +16,10 @@ function Login() {
           </div>
           <div className="form-btn  mt-4">
             <button type="button" id="login">
-              Login
+              Sign in
+            </button>
+            <button type="button" id="google-signin" className="bg-none">
+              Sign in with Google
             </button>
           </div>
         </form>
