@@ -1,6 +1,8 @@
 import React from "react";
 import "../Login/Login.css";
+import google from "../../assets/images/google.webp";
 
+// import google from "assets/images/google.webp";
 function Login() {
   return (
     <>
@@ -19,7 +21,7 @@ function Login() {
               Sign in
             </button>
             <button type="button" id="google-signin" className="bg-none">
-              Sign in with Google
+              <img src={google} /> Sign in with Google
             </button>
           </div>
         </form>

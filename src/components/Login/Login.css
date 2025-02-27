@@ -27,7 +27,13 @@ body {
   color: #333;
   border-radius: 0px;
   width: 100%;
+  padding: 0px;
 }
+
+#google-signin img {
+  width: 40px;
+}
+
 form {
   margin-top: 20px;
 }
