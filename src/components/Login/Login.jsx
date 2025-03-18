@@ -7,7 +7,7 @@ function Login() {
   return (
     <>
       <div className="form-div">
-        <h1 className="mb-1">Welcome 2</h1>
+        <h1 className="mb-1">Welcome</h1>
         <p>Please Enter Your Details</p>
         <form>
           <div className="form-group  mb-4">
