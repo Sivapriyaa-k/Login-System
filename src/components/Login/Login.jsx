@@ -16,7 +16,7 @@ function Login() {
           <div className="form-group mb-4">
             <input type="password" id="password" placeholder="password" />
           </div>
-          <div className="form-btn  mt-4">
+          <div className="form-btn mt-4">
             <button type="button" id="login">
               Sign in
             </button>
