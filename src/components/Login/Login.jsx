@@ -6,6 +6,9 @@ import google from "../../assets/images/google.webp";
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  function handleSubmit(e) {
+    e.preventDefault();
+  }
 
   return (
     <>
