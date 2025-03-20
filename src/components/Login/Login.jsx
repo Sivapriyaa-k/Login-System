@@ -4,6 +4,9 @@ import google from "../../assets/images/google.webp";
 
 // import google from "assets/images/google.webp";
 function Login() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
   return (
     <>
       <div className="form-div">
@@ -11,10 +14,20 @@ function Login() {
         <p>Please Enter Your Details</p>
         <form>
           <div className="form-group mb-4">
-            <input type="text" id="username" placeholder="Username" />
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter Email"
+              onChange={(e) => setEmail(e.target.value)}
+            />
           </div>
           <div className="form-group mb-4">
-            <input type="password" id="password" placeholder="password" />
+            <input
+              type="password"
+              id="password"
+              placeholder="password"
+              onChange={(e) => setPassword(e.target.value)}
+            />
           </div>
           <div className="form-btn mt-4">
             <button type="button" id="login">
